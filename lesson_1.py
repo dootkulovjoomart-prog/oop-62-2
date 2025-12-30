@@ -2,7 +2,7 @@ class Hero:
     # конструктор класса
     def __init__(self, name , lvl , hp ):
 
-        # атриьуты класса
+        # атрибуты класса
         self.name = name
         self.lvl = lvl
         self.hp = hp

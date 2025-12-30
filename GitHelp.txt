@@ -1,7 +1,7 @@
 
 
 git config --global user.name "Имя" — задать имя для всех коммитов.
-git config --global user.email "почта@example.com" — задать email.
+  "почта@example.com" — задать email.
 
 
 📂 Репозиторий

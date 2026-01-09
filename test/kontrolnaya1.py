@@ -87,7 +87,7 @@ class RUSms(SmsService):
 hero = Hero('John' , 100 , 500)
 magehero = MageHero('robert' , 99 , 500,60 )
 warriorhero = WarriorHero('zhoomart', 89 , 1000,50 )
-acc1 = BankAccount(hero , 3456 , 'qwer', 'o bank')
+acc1 = BankAccount(hero, 3456 , 'qwer', 'o bank')
 acc2 = BankAccount(magehero, 6532, 'asd', 'o bank')
 acc3 = BankAccount(warriorhero, 4536, 'zxc', 'o bank')
 
@@ -96,6 +96,7 @@ print(magehero.action())
 print(warriorhero.action())
 print(acc1)
 print(acc2)
+print(acc3)
 
 print("\n=== Examination __add__ ===")
 print("The sum of the bills of two magicians:", acc1 + acc2)
@@ -111,5 +112,5 @@ print("Mage1 == Mage2 ?", acc1 == acc2)
 print("Mage1 == Warrior ?", acc1 == acc3)
 
 sms = KGSms()
-print("\n", sms.send_otp ("+996503848516"))
+print("\n", sms.send_otp (+996503848516))
 

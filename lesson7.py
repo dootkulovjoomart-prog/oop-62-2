@@ -36,7 +36,7 @@ get_all_zhoomarts()
 def get_delet_zhoomart(rowid):
     'DELETE FROM Zhoomart WHERE rowid = ?',
     (rowid,)
-get_delet_zhoomart([4,5,6,7,8])
+get_delet_zhoomart(4,)
 get_all_zhoomarts()
 db.commit()
 db.close()
